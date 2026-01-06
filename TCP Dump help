@@ -1,0 +1,9 @@
+tcpdump -i eth0 -XXvvv
+tcpdump port !88 
+*******Primitives may be combined using:*******
+
+Concatenation: 'and' ( && )
+
+Alteration: 'or' ( || )
+
+Negation: 'not' ( ! )
