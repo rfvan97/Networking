@@ -1,0 +1,8 @@
+1. sCAn 
+2. NC Banner
+3. wget -f http/ftp
+4. get on box
+5. passive Internal (share drive, ps, tasklist, services, network connections, arp, routing tables, ip a)
+6. Active internal (nmap)
+7.  pivot
+repeat ^ to step 1
