@@ -1,0 +1,6 @@
+Client Configuration File (/etc/ssh/ssh_config)
+
+Server Configuration File (/etc/ssh/sshd_config)
+
+Known Hosts File (~/.ssh/known_hosts)
+
