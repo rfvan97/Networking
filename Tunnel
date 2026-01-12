@@ -1,0 +1,5 @@
+Local port forwarding 
+IH) ssh user@192.168.10.10 -L 1738:10.10.10.10:22
+IH) ssh user@locahost (127.0.0.1) -p 1111
+
+IH) wget -r http://127.0.0.1:1111 
