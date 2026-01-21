@@ -1,0 +1,10 @@
+IH > ssh bob@bobip -L 1111:BillIP:23 -NT
+IH > telnet 127.0.0.1 1111
+Bill > bob@bobip - R 2222:127.0.0.1:22 -NT
+IH > bob@bobip -L 3333:127.0.0.1:2222 -NT
+IH > ssh bill@127.0.0.1 -P 3333 -L 4444:Tonyip:22 -NT
+IH > ssh tony@127.0.0.1 -p 4444 -L 5555:RayIP:23 -NT
+IH > telnet 127.0.0.1 5555
+Ray> ssh tony@tonyip -R 6666:127.0.0.1:22 -NT
+IH> sss tony@127.0.0.1 -p 4444 -L 7777:127.0.0.1:6666 -NT
+              (IH LOOPBACK)           (Tony's LOOPBACK)
